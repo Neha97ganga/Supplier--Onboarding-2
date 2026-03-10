@@ -48,10 +48,11 @@ function SupplierDashboard({ supplierId }) {
   };
 
   useEffect(() => {
-    if (tab === "status") {
-      loadStatus();
-    }
-  }, [tab]);
+  if (tab === "status") {
+    loadStatus();
+  }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [tab]);
 
   const handleUpload = async (e) => {
     e.preventDefault();
