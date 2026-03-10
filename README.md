@@ -1,3 +1,21 @@
+## Run using Docker
+
+1. Install Docker Desktop
+2. Clone the repository
+
+git clone <repo-url>
+
+3. Navigate to GUI folder
+
+cd GUI
+
+4. Run the project
+
+docker compose up --build
+
+5. Open in browser
+
+http://localhost:3000
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
