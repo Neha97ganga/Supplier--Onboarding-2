@@ -39,6 +39,15 @@ db.serialize(() => {
       score INTEGER
     )
   `);
+   db.run(`
+    CREATE TABLE IF NOT EXISTS rules (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      document_type TEXT,
+      check_id TEXT,
+      description TEXT,
+      severity TEXT
+    )
+  `);
 
   console.log("✅ Tables created successfully");
 });
