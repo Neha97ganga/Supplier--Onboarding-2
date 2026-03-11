@@ -1,5 +1,5 @@
 const BASE_URL =
-  process.env.REACT_APP_API_URL || "https://is-supplier-onboarding-cwe0.onrender.com";
+  process.env.REACT_APP_API_URL || "https://supplier-onboarding-2.onrender.com";
 
 export async function getSuppliers() {
   const res = await fetch(`${BASE_URL}/suppliers`);
