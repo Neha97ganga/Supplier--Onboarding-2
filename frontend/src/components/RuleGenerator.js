@@ -50,7 +50,7 @@ function RuleGenerator() {
       setLoading(true);
       console.log("🚀 Sending request using fetch");
 
-      const res = await fetch("http://127.0.0.1:5000/sample-documents", {
+      const res = await fetch("https://is-supplier-onboarding-cwe0.onrender.com/sample-documents", {
         method: "POST",
         body: formData
       });
