@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { addSupplier } from "../api";
-const BASE_URL =
-  "https://supplier-onboarding-2.onrender.com";
+const BASE_URL = "https://supplier-onboarding-2.onrender.com";
 
 function AddSupplier() {
   const [name, setName] = useState("");
